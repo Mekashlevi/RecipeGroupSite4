@@ -5,65 +5,14 @@
 
 body{
   font-family: "josefin Sans", sans-serif;
+  font-size: 1em;
 }
 
-h1{
-  border-bottom: 2pt solid black;
-  padding: 20px;
-  font-size: 28pt;
-}
-
-h2{
-  font-size: 24pt;
-}
-
-h3{
-  position: relative;
-}
-
-p{
-  margin: 0 auto;
-}
-
-.caption {
-  margin: 0 auto;
-  margin-top: 5px;
-}
-
-figure {
-  margin: 0 auto;
-  display: block;
-}
-
-#mainlasagna {
-  width: 350px;
-  height: 300px;
-  margin: 0 auto;
-}
-
-legend {
-  margin: 0 auto;
-}
-
-input, #tblspn, #cups {
-}
-
-fieldset {
-  margin: 0 auto;
-}
-
-ul, li{
-  text-align: auto;
-}
-
-ol {
-  text-align: auto;
-}
-
-.title, #maintitle{
+#header {
   color: darkred;
   text-align: center;
   font-family: Papyrus;
+  font-size: 25pt;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -71,14 +20,10 @@ ol {
     1px 1px 0 #000;
 }
 
-.title, #secondtitle{
-  color: darkgoldenrod;
-}
-
-#secondtitle {
-  color: darkgoldenrod;
-  text-align: center;
+#rate {
+  color: olive;
   font-family: Papyrus;
+  font-size: 15pt;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -86,97 +31,40 @@ ol {
     1px 1px 0 #000;
 }
 
-#maincaption {
-  margin: 0 auto;
-  margin-bottom: 20px;
+.title {
+  color: darkgoldenrod;
+  font-family: Papyrus;
+  font-size: 15pt;
+  font-style: bold, italic;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 170px 170px;
-  gap: 5px;
-  float: left;
-  clear: both;
+
+[class*="col"] {
+          float: left;
+  /* padding: 15px; */
+        }
+
+#recipe {
+  font-size: 20px;
 }
 
-.box2 {
-  margin: 0 auto;
-  overflow: scroll;
-  overflow: hidden;
+.row::after {
+    content: "";
+    clear: both;
+    display: block;  
 }
 
-.rate {
-  margin: 20 auto;
-}
-
-.difficulty {
-  margin: 0 auto
-}
-
-.box3 {
-  margin: 0 auto;
-  text-align: auto;
-  overflow: auto;
-}
-
-.box4 {
-  margin: 0 auto;
-  text-align: auto;
-  overflow: auto;
-}
-
-.box5 {
-  margin: 0 auto;
-  text-align: left;
-  overflow: scroll;
-  overflow: auto;
-  height: 500px;
-}
-
-.box3, .box4, .box5 {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.footer {
-  margin: 0 auto;
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.difficulty-box {
-  border: 1px solid black;
-  padding: 10px;
-  width: 500px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.difficulty-box legend {
-  font-weight: bold;
-}
-
-.difficulty-box label {
-  display: inline;
-  margin-bottom: 5px;
-  text-align: left;
-}
-
-#ingredients-section, .box3 {
-  background-image: url(images/ingredients-list-background.jpg); /* not working */
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-}
 
 a {
   text-decoration: none;
   color: darkred;
 }
+
 
 a:hover {
   text-decoration: underline;
@@ -185,5 +73,32 @@ a:hover {
 
 input::placeholder {
   text-align: left;
+}
+
+
+ul, ol, fieldset, .caption {
+  font-size: 0.95em;
+}
+
+
+
+
+/* BEGIN FOOTER */
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  font-size: 0.95em;
+}
+
+.footer-text a {
+
+}
+
+.footer-text span {
+
 }
 
