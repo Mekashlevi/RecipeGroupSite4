@@ -71,6 +71,8 @@ col, col-3 menu, #recipe, #mainimage {
 
 li {
   display: block;
+  border: 2pt darkred solid;
+  padding: 10pt;
 }
 
 /* BEGIN FOOTER */
