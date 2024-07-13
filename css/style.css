@@ -69,6 +69,10 @@ col, col-3 menu, #recipe, #mainimage {
   font-size: 0.95em;
 }
 
+li {
+  display: block;
+}
+
 /* BEGIN FOOTER */
 
 .footer-text {
