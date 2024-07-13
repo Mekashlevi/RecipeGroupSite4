@@ -21,16 +21,6 @@ body{
     1px 1px 0 #000;
 }
 
-#title2 {
-  color: olive;
-  font-family: Papyrus;
-  font-size: 15pt;
-  text-shadow: 
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
 
 .title {
   color: darkgoldenrod;
