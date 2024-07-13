@@ -8,6 +8,7 @@ body{
   font-size: 1em;
 }
 
+
 #header {
   color: darkred;
   text-align: center;
@@ -20,7 +21,7 @@ body{
     1px 1px 0 #000;
 }
 
-#rate {
+#title2 {
   color: olive;
   font-family: Papyrus;
   font-size: 15pt;
@@ -34,8 +35,8 @@ body{
 .title {
   color: darkgoldenrod;
   font-family: Papyrus;
+  text-align: center;
   font-size: 15pt;
-  font-style: bold, italic;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -49,9 +50,6 @@ body{
   /* padding: 15px; */
         }
 
-#recipe {
-  font-size: 20px;
-}
 
 .row::after {
     content: "";
@@ -71,17 +69,15 @@ a:hover {
 }
 
 
-input::placeholder {
-  text-align: left;
+col, col-3 menu, #recipe, #mainimage {
+  position: center;
+  text-align: center;
 }
 
 
-ul, ol, fieldset, .caption {
+.caption {
   font-size: 0.95em;
 }
-
-
-
 
 /* BEGIN FOOTER */
 
@@ -94,11 +90,4 @@ ul, ol, fieldset, .caption {
   font-size: 0.95em;
 }
 
-.footer-text a {
-
-}
-
-.footer-text span {
-
-}
 
