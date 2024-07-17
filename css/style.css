@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   background-color: rgb(210, 180, 140); /* Tan */
@@ -58,12 +59,10 @@ a:hover {
   text-decoration: underline;
 }
 
-
-col, col-3 menu, #recipe, #mainimage {
-  position: center;
-  text-align: center;
+.image {
+  width: auto;
+  height: auto;
 }
-
 
 .caption {
   font-size: 0.95em;
@@ -84,6 +83,5 @@ li {
   position: relative;
   bottom: 0;
   font-size: 0.95em;
+  margin-top: 100pt;
 }
-
-
