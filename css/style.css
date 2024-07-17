@@ -5,7 +5,6 @@ html {
 
 * {
   box-sizing: border-box;
-  border: black 1pt solid;
   background-color: rgb(210, 180, 140); /* Tan */
 }
 
