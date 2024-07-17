@@ -4,6 +4,7 @@ html {
 }
 
 * {
+  border: black 0pt solid;
   box-sizing: border-box;
   background-color: rgb(210, 180, 140); /* Tan */
 }
