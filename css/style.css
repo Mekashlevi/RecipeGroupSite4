@@ -1,19 +1,30 @@
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
   background-color: rgb(210, 180, 140); /* Tan */
 }
 
-body{
-  font-family: "josefin Sans", sans-serif;
+body {
+  justify-content: space-around;
+  font-family: Papyrus;
+  text-align: center;
   font-size: 1em;
+  clear: both;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
+.recipe-container {
+  display: inline-block;
+}
 
-#header {
+h1 {
   color: darkred;
-  text-align: center;
-  font-family: Papyrus;
   font-size: 50pt;
   text-shadow: 
     -1px -1px 0 #000,  
@@ -22,11 +33,8 @@ body{
     1px 1px 0 #000;
 }
 
-
-.title, #title1 {
+h2 {
   color: darkgoldenrod;
-  font-family: Papyrus;
-  text-align: center;
   font-size: 30pt;
   text-shadow: 
     -1px -1px 0 #000,  
@@ -35,46 +43,31 @@ body{
     1px 1px 0 #000;
 }
 
-
-[class*="col"] {
-          float: left;
-  /* padding: 15px; */
-        }
-
-
-.row::after {
-    content: "";
-    clear: both;
-    display: block;  
+h3 {
+  font-size: 20pt;
+  padding-top: 20pt;
 }
 
-
-a {
-  text-decoration: none;
+h3, a {
   color: darkred;
+  text-align: center;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-
 
 a:hover {
-  text-decoration: underline;
+  color: olive;
 }
 
 .image {
-  width: auto;
-  height: auto;
-}
-
-.caption {
-  font-size: 0.95em;
-}
-
-li {
   display: block;
-  border: 2pt darkred solid;
-  padding: 10pt;
+  margin-left: auto;
+  margin-right: auto;
+  max-block-size: 500px;
 }
-
-/* BEGIN FOOTER */
 
 .footer-text {
   display: flex;
@@ -82,6 +75,5 @@ li {
   align-items: center;
   position: relative;
   bottom: 0;
-  font-size: 0.95em;
-  margin-top: 150pt;
+  margin-top: 100pt;
 }
