@@ -4,14 +4,14 @@ html {
 }
 
 * {
-  border: none;
   box-sizing: border-box;
+  border: black 0pt solid;
   background-color: rgb(210, 180, 140); /* Tan */
 }
 
 body {
+  font-family: "Josefin Sans", sans-serif;
   justify-content: space-around;
-  font-family: Papyrus;
   text-align: center;
   font-size: 1em;
   clear: both;
@@ -26,6 +26,7 @@ body {
 h1 {
   color: darkred;
   font-size: 50pt;
+  font-family: Papyrus;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -36,6 +37,7 @@ h1 {
 h2 {
   color: darkgoldenrod;
   font-size: 30pt;
+  font-family: Papyrus;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -44,22 +46,29 @@ h2 {
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 15pt;
   padding-top: 20pt;
 }
 
-h3, a {
+.menu {
+  color: darkred;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+a {
   color: darkred;
   text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: olive;
   text-shadow: 
     -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-}
-
-a:hover {
-  color: olive;
 }
 
 .image {
